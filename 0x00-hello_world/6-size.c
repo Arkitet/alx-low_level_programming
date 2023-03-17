@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - starts runtime
+ * main - entry poitn
  *
- * Return: o on success
+ * Return: 0 on success
  */
 
 int main(void)
