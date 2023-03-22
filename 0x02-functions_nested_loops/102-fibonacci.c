@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -22,6 +22,7 @@ int main(void)
 
 		fib1 = fib2;
 		fib2 = sum;
+
 		if (count == 49)
 			printf("\n");
 		else
