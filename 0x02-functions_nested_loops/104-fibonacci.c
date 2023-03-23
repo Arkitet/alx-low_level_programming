@@ -34,10 +34,10 @@ int main(void)
         {
                 printf(", %lu", aft1 + (aft2 / 1));
                 printf("%lu", aft2 % 1);
-                aft1 = aft1 + bef1;
-                bef1 = aft1 - bef1;
-                aft2 = aft2 + bef2;
-                bef2 = aft2 - bef2;
+                aft1 = aft1 + befl;
+                bef1 = aft1 - befl;
+                aft2 = aft2 + befl;
+                bef2 = aft2 - befl;
         }
         printf("\n");
         return (0);
