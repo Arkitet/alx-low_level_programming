@@ -2,11 +2,13 @@
 
 /**
  * main - entry point
+ * Description: computes and prints the sum of all lutiples
  *
  * Return: always 0
  */
 
 int main(void)
+
 {
 	unsigned long int i;
 	unsigned long int bef = 1;
@@ -28,7 +30,7 @@ int main(void)
 	bef1 = (bef / l);
 	bef2 = (bef % l);
 	aft1 = (aft / l);
-	aft2 = (aft % i);
+	aft2 = (aft % l);
 
 	for (i = 92; i < 99; i++)
 	{
